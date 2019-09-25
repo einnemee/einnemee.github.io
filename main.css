@@ -18,7 +18,7 @@ a:active {color: #303030; text-decoration: none;}
 .main {
         font-size: 450%;
         font-weight: 100;
-	letter-spacing: 5em;
+	letter-spacing: 0.3em;
 	text-transform: uppercase;
 }
 	
