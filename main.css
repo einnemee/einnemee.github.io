@@ -20,7 +20,14 @@ a:active {color: #303030; text-decoration: none;}
         font-weight: 100;
 	letter-spacing: 0.05em;
 }
-	
+
+.grid {
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 100px 50% 200px;
+}
 
 .header {color: aliceblue; height:300px; background-color: #303030; background-size:700px 200px;}
 
