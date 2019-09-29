@@ -27,14 +27,13 @@ a:active {color: #303030; text-decoration: none;}
   display: grid;
   grid-template-columns: 15% 70% 15%;
   grid-gap: 20px 20px;
-  border: 2px #303030 solid;
 }
 
 .box {
   background-color: aliceblue;
   color: #303030;
   border-radius: 5px;
-  border: 2px #303030 solid;
+  border: 2px black solid;
 }
 
 .a {
