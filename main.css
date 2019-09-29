@@ -34,6 +34,10 @@ a:active {color: #303030; text-decoration: none;}
   border: 2px #303030 solid;
 }
 
+.a {
+  grid-column-start: 1;
+  grid-column-end: 3;
+
 
 .b {
   background-color: #303030;
