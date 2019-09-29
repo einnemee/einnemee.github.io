@@ -48,6 +48,10 @@ a:active {color: #303030; text-decoration: none;}
   grid-row-end: 6;
 }
 
+.c d e f {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
 
 
 .header {color: aliceblue; height:300px; background-color: #303030; background-size:700px 200px;}
