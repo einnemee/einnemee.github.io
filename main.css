@@ -38,7 +38,6 @@ a:active {color: #303030; text-decoration: none;}
 .b {
   background-color: #303030;
   color: aliceblue;
-  position: fixed;
   grid-row-start: 2;
   grid-row-end: 5;
 }
