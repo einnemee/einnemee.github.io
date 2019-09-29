@@ -22,7 +22,7 @@ a:active {color: #303030; text-decoration: none;}
 }
 
 .grid {
-  border: 2px blue solid;
+  border: 2px #303030;
   width: 100%;
   height: 500px;
   display: grid;
@@ -31,8 +31,8 @@ a:active {color: #303030; text-decoration: none;}
 }
 
 .box {
-  background-color: beige;
-  color: black;
+  background-color: aliceblue;
+  color: #303030;
   border-radius: 5px;
   border: 2px dodgerblue solid;
 }
