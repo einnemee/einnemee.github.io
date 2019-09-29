@@ -34,16 +34,13 @@ a:active {color: #303030; text-decoration: none;}
   border: 2px #303030 solid;
 }
 
-.a {
-  grid-row-start: 2;
-  grid-row-end: 4;
-}
-
 
 .b {
   background-color: #303030;
   color: aliceblue;
   position: fixed;
+  grid-row-start: 2;
+  grid-row-end: 5;
 }
 
 
