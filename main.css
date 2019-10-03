@@ -32,7 +32,7 @@ a:active {color: #303030; text-decoration: none;}
                        "footer footer footer";
   grid-template-columns: 12% 30% 58%;
   grid-template-rows: 300px 1fr 1fr 1fr 1fr 70px;	
-  grid-gap: 10px;
+  grid-gap: 2%;
 }
 
 header {
@@ -49,6 +49,9 @@ nav {
   grid-area: blog01;
   border: 2px #303030 solid;
   border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.5em;
 } 
 
 .nestedimage {
