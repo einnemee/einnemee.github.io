@@ -24,13 +24,13 @@ a:active {color: #303030; text-decoration: none;}
 .grid {
   display: grid;
   position: relative;
-  grid-template-areas: "header header"
-                       "nav blog04"
-                       "nav blog03"
-		       "nav blog02"
-	  	       "nav blog01"
-                       "footer footer";
-  grid-template-columns: 12% 88%;
+  grid-template-areas: "header header header"
+                       "nav blog04 blog04"
+                       "nav blog03 blog03"
+		       "nav blog02 blog02"
+	  	       "nav blog01 blog01"
+                       "footer footer footer";
+  grid-template-columns: 12% 30% 58%;
   grid-template-rows: 300px 1fr 1fr 1fr 1fr 70px;	
   grid-gap: 10px;
 }
