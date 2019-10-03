@@ -26,11 +26,13 @@ a:active {color: #303030; text-decoration: none;}
   height: 500px;
   display: grid;
   grid-template-areas: "header header"
-                       "nav nav" 
-                       "blog01 blog02 blog03 blog04"
+                       "nav blog04"
+                       "nav blog03"
+		       "nav blog02"
+	  	       "nav blog01"
                        "footer footer";
   grid-template-columns: 15% 85%;
-  grid-template-rows: 20% 20% 20% 20% 20%;	
+  grid-template-rows: 300px 300px 300px 300px 300px 300px;	
 }
 
 header {
