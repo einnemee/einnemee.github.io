@@ -79,7 +79,8 @@ footer {
 .header {
 	color: aliceblue; 
 	height:300px; 
-	background-color: #303030; 
+	/* background-color: #303030; */
+	background-color: hotpint;
 	background-size:700px 200px;
 }
 
