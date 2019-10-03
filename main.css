@@ -55,18 +55,18 @@ nav {
 } 
 
 .nestedimage {
-  border: 2px solid #ffec99;
+  border: 2px solid aliceblue;
   border-radius: 5px;
-  background-color: #fff9db;
+  background-color: white;
   padding: 1em;
   grid-column: 1;
   grid-row: 1;
 }
 
 .nestedtext {
-  border: 2px solid #ffec99;
+  border: 2px solid aliceblue;
   border-radius: 5px;
-  background-color: #fff9db;
+  background-color: white;
   padding: 1em;
   grid-column: 2;
   grid-row: 1;
