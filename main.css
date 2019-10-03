@@ -27,11 +27,40 @@ a:active {color: #303030; text-decoration: none;}
   display: grid;
   grid-template-areas: "header header"
                        "nav nav" 
-                       "info services"
+                       "blog01 blog02 blog03 blog04"
                        "footer footer";
   grid-template-columns: 15% 85%;
   grid-template-rows: 20% 20% 20% 20% 20%;	
 }
+
+header {
+  grid-area: header;
+} 
+
+nav {
+  grid-area: nav;
+} 
+
+.blog01 {
+  grid-area: blog01;
+} 
+
+.blog02 {
+  grid-area: blog02;
+}
+
+.blog03 {
+  grid-area: blog03;
+}
+
+.blog04 {
+  grid-area: blog04;
+}
+
+footer {
+  grid-area: footer;
+} 
+
 
 .box {
   background-color: aliceblue;
