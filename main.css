@@ -26,7 +26,6 @@ a:active {color: #303030; text-decoration: none;}
   position: relative;
   max-width: 900px;
   margin: auto;
-  grid-gap: 10px;
   grid-template-areas: "header header"
                        "nav blog04"
                        "nav blog03"
