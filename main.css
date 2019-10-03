@@ -45,12 +45,6 @@ nav {
   color: aliceblue;
 } 
 
-.nested {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
-}
-
 .blog01 {
   grid-area: blog01;
   border: 2px #303030 solid;
