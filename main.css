@@ -43,7 +43,6 @@ nav {
   grid-area: nav;
   background-color: #303030;
   color: aliceblue;
-  position: fixed;
 } 
 
 .nested {
