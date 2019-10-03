@@ -5,7 +5,7 @@ body {
 	text-align: center;
 	width: 100%;
         color: #303030;
-        background-color: aliceblue;      
+        background-color: #303030;      
 }
 
 
@@ -37,6 +37,9 @@ a:active {color: #303030; text-decoration: none;}
 
 header {
   grid-area: header;
+  border: 2px #303030 solid;
+  border-radius: 5px;
+  padding: 2em;
 } 
 
 nav {
@@ -107,13 +110,15 @@ footer {
   border: 2px #303030 solid;
 }
 
-
+/*
 .header {
 	color: aliceblue; 
 	height:300px; 
-	background-color: #303030;
+        background-color: #303030;
 	background-size:700px 200px;
 }
+*/
+
 
 .footer {
 	color: aliceblue; 
