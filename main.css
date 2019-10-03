@@ -48,18 +48,26 @@ nav {
 
 .blog01 {
   grid-area: blog01;
+  grid-gap: 10px;
+  border: 2px blue solid;
 } 
 
 .blog02 {
   grid-area: blog02;
+  grid-gap: 10px;
+  border: 2px blue solid;
 }
 
 .blog03 {
   grid-area: blog03;
+  grid-gap: 10px;
+  border: 2px blue solid;
 }
 
 .blog04 {
   grid-area: blog04;
+  grid-gap: 10px;
+  border: 2px blue solid;
 }
 
 footer {
