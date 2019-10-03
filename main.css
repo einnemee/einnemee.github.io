@@ -30,9 +30,9 @@ a:active {color: #303030; text-decoration: none;}
 		       "nav blog02 blog02"
 	  	       "nav blog01 blog01"
                        "footer footer footer";
-  grid-template-columns: 12% 30% 58%;
+  grid-template-columns: 12% 30% 52%;
   grid-template-rows: 300px 1fr 1fr 1fr 1fr 70px;	
-  grid-gap: 2%;
+  grid-gap: 1%;
 }
 
 header {
@@ -49,10 +49,33 @@ nav {
   grid-area: blog01;
   border: 2px #303030 solid;
   border-radius: 5px;
+  padding: 2em;
+  
+} 
+
+.blog02 {
+  grid-area: blog02;
+  border: 2px #303030 solid;
+  border-radius: 5px;
+  padding: 2em;
+}
+
+.blog03 {
+  grid-area: blog03;
+  border: 2px #303030 solid;
+  border-radius: 5px;
+  padding: 2em;
+}
+
+.blog04 {
+  grid-area: blog04;
+  border: 2px #303030 solid;
+  border-radius: 5px;
+  padding: 2em;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 0.5em;
-} 
+}
 
 .nestedimage {
   border: 2px solid aliceblue;
@@ -70,25 +93,6 @@ nav {
   padding: 1em;
   grid-column: 2;
   grid-row: 1;
-}
-
-.blog02 {
-  grid-area: blog02;
-  border: 2px #303030 solid;
-  border-radius: 5px;
-  padding: 2em;
-}
-
-.blog03 {
-  grid-area: blog03;
-  border: 2px #303030 solid;
-  border-radius: 5px;
-}
-
-.blog04 {
-  grid-area: blog04;
-  border: 2px #303030 solid;
-  border-radius: 5px;
 }
 
 footer {
