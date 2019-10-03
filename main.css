@@ -23,9 +23,7 @@ a:active {color: aliceblue; text-decoration: none;}
 
 .grid {
   display: grid;
-  max-width: 100%;
   position: relative;
-  max-width: 900px;
   grid-template-areas: "header header"
                        "nav blog04"
                        "nav blog03"
@@ -48,31 +46,31 @@ nav {
 
 .blog01 {
   grid-area: blog01;
-  border-spacing: 5px;
-  border: 2px blue solid;
+  border: 2px #303030 solid;
   border-radius: 5px;
+  grid-gap: 5px;
   
 } 
 
 .blog02 {
   grid-area: blog02;
-  border-spacing: 5px;
-  border: 2px blue solid;
+  border: 2px #303030 solid;
   border-radius: 5px;
+  grid-gap: 5px;
 }
 
 .blog03 {
   grid-area: blog03;
-  border-spacing: 5px;
-  border: 2px blue solid;
+  border: 2px #303030 solid;
   border-radius: 5px;
+  grid-gap: 5px;
 }
 
 .blog04 {
   grid-area: blog04;
-  border-spacing: 5px;
-  border: 2px blue solid;
+  border: 2px #303030 solid;
   border-radius: 5px;
+  grid-gap: 5px;
 }
 
 footer {
