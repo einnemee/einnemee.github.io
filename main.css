@@ -25,7 +25,6 @@ a:active {color: #303030; text-decoration: none;}
   display: grid;
   position: relative;
   max-width: 900px;
-  margin: auto;
   grid-template-areas: "header header"
                        "nav blog04"
                        "nav blog03"
@@ -33,7 +32,7 @@ a:active {color: #303030; text-decoration: none;}
 	  	       "nav blog01"
                        "footer footer";
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;	
+  grid-template-rows: 300px 1fr 1fr 1fr 1fr 100px;	
 }
 
 header {
