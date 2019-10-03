@@ -70,28 +70,13 @@ footer {
   border: 2px #303030 solid;
 }
 
-header {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
+
 
 nav {
   background-color: #303030;
   color: aliceblue;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 6;
 }
 
-/*
-.c d e f {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 6;
-}
-*/
 
 
 .header {color: aliceblue; height:300px; background-color: #303030; background-size:700px 200px;}
