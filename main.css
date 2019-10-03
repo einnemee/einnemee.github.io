@@ -43,6 +43,8 @@ header {
 
 nav {
   grid-area: nav;
+  background-color: #303030;
+  color: aliceblue;
 } 
 
 .blog01 {
@@ -74,16 +76,21 @@ footer {
 
 
 
-nav {
-  background-color: #303030;
-  color: aliceblue;
+
+.header {
+	color: aliceblue; 
+	height:300px; 
+	background-color: #303030; 
+	background-size:700px 200px;
 }
 
+.footer {
+	color: aliceblue; 
+	height:75px; 
+	background-color: #303030; 
+	font-size: 75%;
+}
 
-
-.header {color: aliceblue; height:300px; background-color: #303030; background-size:700px 200px;}
-
-.footer {color: aliceblue; height:75px; background-color: #303030; font-size: 75%;}
 
 p {font-size: 80%;}
 
