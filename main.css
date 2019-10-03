@@ -23,7 +23,6 @@ a:active {color: #303030; text-decoration: none;}
 
 .grid {
   display: grid;
-  max-width: 900px;
   position: relative;
   margin: auto;
   grid-gap: 10px;
