@@ -51,11 +51,22 @@ nav {
   border-radius: 5px;
 } 
 
-.nested {
+.nestedimage {
   border: 2px solid #ffec99;
   border-radius: 5px;
   background-color: #fff9db;
   padding: 1em;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.nestedtext {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+  grid-column: 2;
+  grid-row: 1;
 }
 
 .blog02 {
