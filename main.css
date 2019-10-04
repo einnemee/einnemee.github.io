@@ -103,6 +103,10 @@ nav {
 footer {
   grid-area: footer;
   font-size: 75%;
+  border: 2px #303030 solid;
+  border-radius: 5px;
+  padding: 2em;
+  background-color: #303030;
 } 
 
 
