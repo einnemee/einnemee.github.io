@@ -31,7 +31,7 @@ a:active {color: #303030; text-decoration: none;}
 	  	       "nav blog01 blog01"
                        "footer footer footer";
   grid-template-columns: 1fr 2fr 3fr;
-  grid-template-rows: 300px 1fr 1fr 1fr 1fr 70px;	
+  grid-template-rows: 300px 1fr 1fr 1fr 1fr 75px;	
   grid-gap: 5px;
   padding: 5px;
 }
@@ -102,6 +102,7 @@ nav {
 
 footer {
   grid-area: footer;
+  font-size: 75%;
 } 
 
 
@@ -120,14 +121,14 @@ footer {
 }
 */
 
-
+/*
 .footer {
 	color: aliceblue; 
 	height:75px; 
 	background-color: #303030; 
 	font-size: 75%;
 }
-
+*/
 
 p {font-size: 80%;}
 
