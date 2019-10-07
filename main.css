@@ -24,89 +24,57 @@ a:active {color: #303030; text-decoration: none;}
 .grid {
   display: grid;
   position: relative;
-  grid-template-areas: "header header header"
-                       "nav blog04 blog04"
-                       "nav blog03 blog03"
-		       "nav blog02 blog02"
-	  	       "nav blog01 blog01"
-                       "footer footer footer";
-  grid-template-columns: 1fr 2fr 3fr;
-  grid-template-rows: 300px 1fr 1fr 1fr 1fr 75px;	
+  grid-template-areas: "nav nav nav nav nav"
+		       "header header header header header"
+		       "row2 row2 row2 row2 row2"
+ 		       "row1 row1 row1 row1 row1"                      
+                       "footer footer footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 75px 275px 300px 300px 70px;	
   grid-gap: 5px;
-  padding: 5px;
 }
 
 header {
   grid-area: header;
-  border: 2px #303030 solid;
-  border-radius: 5px;
-  padding: 2em;
+  background-color: #303030;
+  color: aliceblue;
+  /* background-color: rgb(153, 217, 234); */
 } 
 
 nav {
   grid-area: nav;
-  border: 2px #303030 solid;
-  border-radius: 5px;
   padding: 2em;
 } 
 
-.blog01 {
-  grid-area: blog01;
-  border: 2px #303030 solid;
-  border-radius: 5px;
-  padding: 2em;
-  
-} 
-
-.blog02 {
-  grid-area: blog02;
-  border: 2px #303030 solid;
-  border-radius: 5px;
-  padding: 2em;
-}
-
-.blog03 {
-  grid-area: blog03;
-  border: 2px #303030 solid;
-  border-radius: 5px;
-  padding: 2em;
-}
-
-.blog04 {
-  grid-area: blog04;
-  border: 2px #303030 solid;
-  border-radius: 5px;
+.row3 {
+  grid-area: row3;
   padding: 2em;
   display: grid;
-  grid-template-columns: repeat(1fr 2fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 0.5em;
 }
 
-.nestedimage {
-  border: 2px solid aliceblue;
-  border-radius: 5px;
-  background-color: white;
-  padding: 1em;
-  grid-column: 1;
-  grid-row: 1;
+.row2 {
+  grid-area: row2;
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5em;
 }
 
-.nestedtext {
-  border: 2px solid aliceblue;
-  border-radius: 5px;
-  background-color: white;
-  padding: 1em;
-  grid-column: 2;
-  grid-row: 1;
+.row1 {
+  grid-area: row1;
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5em;
 }
 
 footer {
   grid-area: footer;
   font-size: 75%;
-  border: 2px #303030 solid;
-  border-radius: 5px;
-  padding: 2em;
   background-color: #303030;
+  color: aliceblue; 
 } 
 
 
@@ -116,23 +84,6 @@ footer {
   border: 2px #303030 solid;
 }
 
-/*
-.header {
-	color: aliceblue; 
-	height:300px; 
-        background-color: #303030;
-	background-size:700px 200px;
-}
-*/
-
-/*
-.footer {
-	color: aliceblue; 
-	height:75px; 
-	background-color: #303030; 
-	font-size: 75%;
-}
-*/
 
 p {font-size: 80%;}
 
