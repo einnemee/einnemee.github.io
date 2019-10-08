@@ -29,7 +29,7 @@ a:active {color: #303030; text-decoration: none;}
 		       "row2 row2 row2 row2 row2"
  		       "row1 row1 row1 row1 row1"                      
                        "footer footer footer footer footer";
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr minmax(100px, 500px) 1fr minmax(100px, 500px) 1fr minmax(100px, 500px) 1fr;
   grid-template-rows: 75px 275px 300px 300px 70px;	
   grid-gap: 5px;
 }
