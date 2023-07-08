@@ -36,8 +36,8 @@ a:active {color: #303030; text-decoration: none;}
 
 header {
   grid-area: header;
-  background-color: #303030;
-  color: aliceblue;
+  background-color: white;
+  color: #303030;
   /* background-color: rgb(153, 217, 234); */
 } 
 
@@ -73,8 +73,8 @@ nav {
 footer {
   grid-area: footer;
   font-size: 75%;
-  background-color: #303030;
-  color: aliceblue; 
+  background-color: white;
+  color: #303030; 
 } 
 
 
